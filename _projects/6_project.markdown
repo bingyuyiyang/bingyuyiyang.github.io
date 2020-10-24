@@ -1,77 +1,17 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: First Doctoral Thesis
+description: Transportation Operational Management
 img:
-importance: 4
+importance: 6
 ---
+- My research interests are focused on transportation network optimization, Evacuation network management and optimization, traffic modeling analysis, and freeway incident evacuation management and planning. My current research for my dissertation focuses on developing a set of integrated mathematical programming models for unconventional traffic management of special events in urban transportation network. Traffic management strategies such as lane reorganization and reversal, lane-based signal timing, ramp closure, uninterrupted flow intersection will be coordinated and concurrently optimized for best overall system performance.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+- The first chapter of my dissertation, investigates a movement-based network representation scheme and a base model formulation for special event traffic management in a simplified static urban transportation network. Traffic movement reorganization and restriction, signal timing optimization, and uninterrupted flow strategies are best selected and prioritized at critical road network segments and intersections for maximum network operational efficiency under the available budget. The proposed model, incorporating a parametric variational inequality (VI) to formulate the stochastic user equilibrium (SUE) behavior of travelers in route choice, is expected to provide effective solutions to the following critical questions that have long challenged transportation professionals for special event traffic management: 1) how many intersections should be implemented with the signals and interrupted flow controls; 2) what would be the optimal spatial distribution for those intersections in the target network; and 3) how to best design turning restriction, channelization, and signal timings in the network? In view of the large number of variables and constraints for the proposed model, this chapter will develop an efficient heuristic approach embedded with a digitalization algorithm to yield the meta-optimal solutions. Extensive numerical analysis with the case in Washington DC will be performed to demonstrate the applicability and effectiveness of the proposed model.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+- The second chapter of my dissertation, further extends the base model presented previous chapter  by proposing a new network representation scheme that can better capture the traffic flow interactions at the lane level. Such modeling features offer the capability to use more sophisticated and effective lane-based traffic management strategies (e.g. lane reorganization and reversal, cross elimination, lane-based signal, etc.) to further improve the overall network capacity and operational efficiency during special event. The extended model will feature a bi-level structure with equilibrium constraints. Considering the high-dimensionality of its decision variables, this chapter further develops a fast-convergent simultaneous perturbation stochastic approximation (SPSA) based searching heuristic to solve the model to meta-optimality for real-world applications.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- The Third chapter of my dissertation, presents formulations of optimal traffic management strategies for the mixed freeway and arterial corridor considering its critical role in improving highway system efficiency and mobility. Network flow formulations that capture interactions between the freeway and arterial are developed. Ramp control strategies and detour operations will be supplemented in the existing modeling framework to best coordinate the freeway system and the arterial system during special event management. A Hybrid Genetic Algorithm (HGA) will be developed to solve the proposed model. Case studies with a stretch of the I-94 corridor westbound from downtown Milwaukee to Waukesha will be performed to demonstrate the effectiveness of the developed models.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- The forth chapter of my dissertation, proposes the mathematical model formulations for special event traffic management in a dynamic transportation network considering the time varying traffic demand and network characteristics that often occur in a special event. The model features a bi-level structure with the upper level searching for the best traffic management strategies by minimizing the total event clearance time, and the lower level handling routing assignment of the traffic demand with a single-destination user-optimal DTA problem. The cell transmission model (CTM) is adopted to mathematically represent dynamic traffic flow evolution and queuing in the network. To deal with the combinatorial complexity of the proposed model, this chapter will also develop heuristic solution algorithms.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```

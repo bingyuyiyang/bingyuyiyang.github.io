@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: /assets/img/1.jpg
-importance: 3
+title: XiaoDingDang
+description: Demand and Inventory Predict
+img: /assets/img/XDD.jpeg
+importance: 5
 ---
 
 Every project has a beautiful feature showcase page.

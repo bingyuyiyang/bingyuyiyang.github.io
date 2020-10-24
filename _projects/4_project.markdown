@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: EVB Swapping and Charging 
+description: A project
 img:
-importance: 3
+importance: 4
 ---
 
 Every project has a beautiful feature showcase page.
