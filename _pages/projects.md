@@ -3,7 +3,7 @@ layout: page
 permalink: /projects/
 title: Projects
 description: A growing collection of your cool projects.
-nav: true
+nav: false
 ---
 
 <div class="projects grid">
